@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="16" viewBox="0 0 17 16">
+    <defs>
+        <filter id="t1zd5h7gia">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"/>
+        </filter>
+        <path id="2kqa656srb" d="M0 0H16V16H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" filter="url(#t1zd5h7gia)" transform="translate(.5)">
+        <mask id="j9o380wguc" fill="#fff">
+            <use xlink:href="#2kqa656srb"/>
+        </mask>
+        <path stroke="#8C8C8C" stroke-width="1.2" d="M.635 2.085l14.593.015c.213.157.166.421.162.715h0l-.003 9.893c.007.525.063.82-.042 1.001h0L.745 13.7c-.203-.147-.154-.405-.149-.682h0L.6 3.09C.59 2.552.532 2.263.635 2.085h0z" mask="url(#j9o380wguc)"/>
+        <path stroke="#8C8C8C" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2" d="M14.799 3.171L8.083 8.7 1.367 3.171" mask="url(#j9o380wguc)"/>
+    </g>
+</svg>

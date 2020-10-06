@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32">
+    <g fill="none" fill-rule="evenodd" transform="translate(1.5 1)">
+        <rect width="30" height="27.692" y="2.308" stroke="#000" stroke-linejoin="round" stroke-width="2" rx="3"/>
+        <path fill="#000" fill-rule="nonzero" d="M25.227 2.308H4.773C2.14 2.308 0 4.482 0 7.154v4.384h1.154c0-1.153 1.154-2.307 2.308-2.307h23.076c1.154 0 2.308 1.154 2.308 2.307H30V7.154c0-2.672-2.141-4.846-4.773-4.846z"/>
+        <circle cx="17.885" cy="13.269" r="1.731" fill="#000" fill-rule="nonzero"/>
+        <circle cx="23.654" cy="13.269" r="1.731" fill="#000" fill-rule="nonzero"/>
+        <circle cx="17.885" cy="19.038" r="1.731" fill="#000" fill-rule="nonzero"/>
+        <circle cx="23.654" cy="19.038" r="1.731" fill="#000" fill-rule="nonzero"/>
+        <circle cx="6.346" cy="19.038" r="1.731" fill="#000" fill-rule="nonzero"/>
+        <circle cx="12.115" cy="19.038" r="1.731" fill="#000" fill-rule="nonzero"/>
+        <circle cx="6.346" cy="24.808" r="1.731" fill="#000" fill-rule="nonzero"/>
+        <circle cx="12.115" cy="24.808" r="1.731" fill="#000" fill-rule="nonzero"/>
+        <circle cx="17.885" cy="24.808" r="1.731" fill="#000" fill-rule="nonzero"/>
+        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.783 0L5.783 2.308M24.245 0L24.245 2.308"/>
+    </g>
+</svg>

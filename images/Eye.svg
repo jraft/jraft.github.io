@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="26px" viewBox="0 0 38 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Eye</title>
+    <defs>
+        <linearGradient x1="0%" y1="79.6991887%" x2="91.281799%" y2="39.2477947%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-35.0542874%" y1="114.319698%" x2="100%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-84.000000, -80.000000)" stroke-width="2">
+            <g id="Eye" transform="translate(85.498984, 81.775000)">
+                <path d="M17.4360155,-9.23705556e-14 C11.3600155,-9.23705556e-14 5.12801553,3.516 0.221015535,10.55 C-0.065984465,10.964 -0.073984465,11.51 0.200015535,11.934 C3.97001553,17.835 10.1180155,22.45 17.4350155,22.45 C24.6710155,22.45 30.9470155,17.821 34.7230155,11.907 C34.9900155,11.492 34.9900155,10.96 34.7230155,10.545 C30.9390155,4.7 24.6180155,-9.23705556e-14 17.4360155,-9.23705556e-14 Z" id="Path" stroke="url(#linearGradient-1)" stroke-linecap="round" stroke-linejoin="round"></path>
+                <circle id="Oval" stroke="url(#linearGradient-2)" cx="17.4620155" cy="11.225" r="6.236"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
