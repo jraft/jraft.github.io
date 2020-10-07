@@ -902,10 +902,17 @@ body {
 }
 
 .text-block-2 {
-  font-family: Syne, sans-serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 23rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   color: #fff;
   font-size: 20px;
   line-height: 28px;
+  font-weight: 100;
+  text-align: left;
 }
 
 .success-message {
@@ -913,7 +920,7 @@ body {
 }
 
 .text-block-3 {
-  font-family: Syne, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   color: #d81919;
   text-align: center;
 }
@@ -2024,26 +2031,6 @@ body {
   max-width: 76rem;
 }
 
-.body-2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .cell-div {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2514,10 +2501,6 @@ body {
 
 .bold-text {
   font-weight: 600;
-}
-
-.link-4 {
-  color: #191919;
 }
 
 .bold-text-2 {
@@ -5719,10 +5702,6 @@ body {
 
 .emoticon.red {
   color: #f34545;
-}
-
-.image-64 {
-  height: 1.5rem;
 }
 
 .comparison-logo {
@@ -9114,15 +9093,6 @@ body {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-  }
-  .mobile-comparison-logo {
-    height: 100%;
-    max-height: 100%;
-    margin-bottom: 0rem;
-    -webkit-align-self: auto;
-    -ms-flex-item-align: auto;
-    -ms-grid-row-align: auto;
-    align-self: auto;
   }
   .div-block-1449 {
     display: -webkit-box;
