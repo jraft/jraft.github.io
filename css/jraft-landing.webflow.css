@@ -2911,6 +2911,7 @@ body {
 }
 
 .feature-bounding-box.other-features-1 {
+  height: auto;
   padding: 9rem 0rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -3695,7 +3696,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 18rem;
+  height: auto;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -5583,7 +5584,7 @@ body {
   font-weight: 300;
 }
 
-.div-block-1447 {
+.signup-form-2 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -5755,6 +5756,10 @@ body {
 
 .div-block-1449 {
   display: none;
+}
+
+.image-68 {
+  width: 70%;
 }
 
 @media screen and (max-width: 991px) {
