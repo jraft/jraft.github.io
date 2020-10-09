@@ -2127,6 +2127,7 @@ body {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+  background-color: #f3f3f3;
 }
 
 .cell-div.comparison-tables {
@@ -2195,6 +2196,7 @@ body {
 
 ._1st-column.comparison-tables {
   width: 25rem;
+  background-color: #f3f3f3;
 }
 
 .row {
@@ -5752,6 +5754,46 @@ body {
   grid-template-rows: auto auto;
 }
 
+.pricing-more {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95vw;
+  max-width: 65rem;
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.pricing-more.pricing-table {
+  max-width: 65rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.pricing-more.faq {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
 @media screen and (max-width: 991px) {
   .footer {
     padding-right: 20px;
@@ -6289,7 +6331,7 @@ body {
   .feature-bounding-box.other-features-1 {
     width: 100%;
     height: auto;
-    padding: 3rem 0rem;
+    padding: 3rem 3.2rem;
   }
   .feature-bounding-box.editor-sumamry {
     width: 100%;
@@ -6723,11 +6765,26 @@ body {
     padding-right: 0rem;
     padding-left: 0rem;
   }
+  .div-block-1418 {
+    padding-right: 3.2rem;
+    padding-left: 3.2rem;
+  }
   .wp-v-jraft-table.pricing-table {
+    max-width: none;
     margin-top: 5rem;
+  }
+  .wp-v-jraft-feature-parent {
+    width: 100%;
+    max-width: none;
+    padding-right: 3.2rem;
+    padding-left: 3.2rem;
   }
   .div-block-1419 {
     margin-left: 3rem;
+  }
+  .image-57 {
+    width: auto;
+    max-width: 100%;
   }
   .div-block-1429 {
     padding-top: 1rem;
@@ -6800,6 +6857,9 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+  }
+  .pricing-more.pricing-table {
+    margin-top: 5rem;
   }
 }
 
@@ -7050,7 +7110,7 @@ body {
     height: 3rem;
   }
   .cell-div.comparison-tables {
-    height: 3rem;
+    height: 100%;
   }
   ._1st-column {
     width: 100%;
@@ -7252,7 +7312,7 @@ body {
   .feature-bounding-box.other-features-1 {
     margin-top: 4rem;
     margin-bottom: 4rem;
-    padding: 0rem;
+    padding: 0rem 2.3rem;
   }
   .feature-bounding-box.editor-sumamry {
     height: auto;
@@ -7804,6 +7864,14 @@ body {
     font-size: 16px;
     line-height: 160%;
   }
+  .div-block-1418 {
+    padding-right: 2.3rem;
+    padding-left: 2.3rem;
+  }
+  .wp-v-jraft-feature-parent {
+    padding-right: 2.3rem;
+    padding-left: 2.3rem;
+  }
   .div-block-1419 {
     margin-left: 0rem;
   }
@@ -7941,6 +8009,11 @@ body {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
+  }
+  .pricing-more {
+    width: 100%;
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
 }
 
@@ -8359,6 +8432,9 @@ body {
   .pre-cta-content {
     color: #fff;
   }
+  .pricing-body-div {
+    width: 100%;
+  }
   .pricing-feat-detail {
     max-width: 14rem;
   }
@@ -8488,7 +8564,7 @@ body {
     padding-top: 0rem;
   }
   .feature-bounding-box.other-features-1 {
-    padding: 0rem;
+    padding: 0rem 2rem;
   }
   .feature-bounding-box.editor-sumamry {
     padding-right: 0vw;
@@ -8715,7 +8791,7 @@ body {
     margin-left: 0rem;
   }
   .other-features {
-    padding: 0rem 2rem 4rem;
+    padding: 0rem 2rem;
   }
   .other-features-parent {
     width: 100%;
@@ -8939,6 +9015,18 @@ body {
   .heading-16 {
     font-size: 17vw;
   }
+  .div-block-1418 {
+    margin-top: 0rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+  .wp-v-jraft-table.pricing-table {
+    margin-top: 0rem;
+  }
+  .wp-v-jraft-feature-parent {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
   .image-58 {
     border-radius: 0.5rem;
   }
@@ -9133,6 +9221,11 @@ body {
   .image-67.wordpress {
     height: 60%;
     min-height: 60%;
+  }
+  .pricing-more {
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 }
 
