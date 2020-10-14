@@ -1,1 +1,7 @@
-<svg height="12" viewBox="0 0 16 12" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m14.5.7929688-.353516.3535156-8.646484 8.6464846-3.6464844-3.6464846-.3535156-.3535156-.70703125.7070312.35351565.3535156 4.3535156 4.3535154 9.353516-9.3535154.353515-.3535156z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Tick</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Tick" fill="#000000" fill-rule="nonzero" points="14.5 0.7929688 14.146484 1.1464844 5.5 9.792969 1.8535156 6.1464844 1.5 5.7929688 0.79296875 6.5 1.1464844 6.8535156 5.5 11.207031 14.853516 1.8535156 15.207031 1.5"></polygon>
+    </g>
+</svg>

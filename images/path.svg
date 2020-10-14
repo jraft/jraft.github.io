@@ -1,1 +1,3 @@
-<svg height="11" viewBox="0 0 11 11" width="11" xmlns="http://www.w3.org/2000/svg"><path d="m572.551 166 2.449 2.449-5.552 5.57h4.314v2.981h-9.762v-9.762h2.99v4.314z" fill="#3d3d3d" transform="matrix(-1 0 0 -1 575 177)"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11">
+    <path fill="#3D3D3D" d="M572.551 166L575 168.449 569.448 174.019 573.762 174.019 573.762 177 564 177 564 167.238 566.99 167.238 566.99 171.552z" transform="rotate(180 287.5 88.5)"/>
+</svg>

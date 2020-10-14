@@ -4832,7 +4832,7 @@ body {
   width: auto;
   max-width: 55rem;
   margin-top: 0rem;
-  margin-bottom: 0rem;
+  margin-bottom: 6rem;
   padding-top: 0rem;
   padding-bottom: 0rem;
   -webkit-box-orient: vertical;
@@ -9060,6 +9060,7 @@ body {
     margin-top: 0rem;
   }
   .wp-v-jraft-feature-parent {
+    margin-bottom: 3rem;
     padding-right: 2rem;
     padding-left: 2rem;
   }

@@ -1,1 +1,7 @@
-<svg height="32" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="#000" stroke-width="2" transform="translate(1 1)"><path d="m15 0c-8.284 0-15 6.716-15 15s6.716 15 15 15 15-6.716 15-15c0-3.978-1.58-7.794-4.393-10.607s-6.629-4.393-10.607-4.393z"/><path d="m12.712 6.61c-3.37 0-6.102 2.732-6.102 6.102s2.732 6.102 6.102 6.102 6.102-2.732 6.102-6.102c0-1.618-.643-3.17-1.788-4.315-1.144-1.144-2.696-1.787-4.314-1.787z"/><path d="m17.288 17.288 4.576 4.576" stroke-linecap="round"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <g fill="none" fill-rule="evenodd" stroke="#000" stroke-width="2">
+        <path d="M15 0C6.716 0 0 6.716 0 15c0 8.284 6.716 15 15 15 8.284 0 15-6.716 15-15 0-3.978-1.58-7.794-4.393-10.607C22.794 1.58 18.978 0 15 0z" transform="translate(1 1)"/>
+        <path d="M12.712 6.61c-3.37 0-6.102 2.732-6.102 6.102s2.732 6.102 6.102 6.102 6.102-2.732 6.102-6.102c0-1.618-.643-3.17-1.788-4.315-1.144-1.144-2.696-1.787-4.314-1.787h0z" transform="translate(1 1)"/>
+        <path stroke-linecap="round" d="M17.288 17.288L21.864 21.864" transform="translate(1 1)"/>
+    </g>
+</svg>
