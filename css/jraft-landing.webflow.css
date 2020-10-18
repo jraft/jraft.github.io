@@ -2374,11 +2374,6 @@ body {
   flex-direction: column;
 }
 
-.pricing-body-div.faq {
-  margin-top: 10rem;
-  margin-bottom: 5rem;
-}
-
 .div-block-1335 {
   width: 100%;
   height: 100%;
@@ -3625,29 +3620,6 @@ body {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-}
-
-.other-features {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  overflow: hidden;
-  width: 100%;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #f3f3f3;
 }
 
 .other-features-parent {
@@ -5776,24 +5748,6 @@ body {
   justify-content: space-between;
 }
 
-.pricing-more.pricing-table {
-  max-width: 65rem;
-  margin-top: 0rem;
-  margin-bottom: 0rem;
-  padding-top: 5rem;
-  padding-bottom: 4rem;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.pricing-more.faq {
-  margin-top: 10rem;
-  margin-bottom: 5rem;
-}
-
 .utility-page-wrap {
   display: -webkit-box;
   display: -webkit-flex;
@@ -5825,6 +5779,138 @@ body {
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
+}
+
+.div-block-1450 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 25rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f3f3f3;
+}
+
+.div-block-1451 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95vw;
+  height: 100%;
+  max-width: 75rem;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.div-block-1452 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 25rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.legal-pagelinks {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.heading-24 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 60px;
+  line-height: 120%;
+  font-weight: 700;
+}
+
+.div-block-1453 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.div-block-1454 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95vw;
+  max-width: 75rem;
+  margin-bottom: 5rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.legal-paragraph-text {
+  width: 65%;
+  min-width: 41rem;
+  margin-bottom: 1.5em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.legal-paragraph-text.effective-date {
+  margin-bottom: 4em;
+}
+
+.heading-25 {
+  max-width: 42rem;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  line-height: 46px;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 991px) {
@@ -6568,9 +6654,6 @@ body {
     width: 90%;
     margin-left: 2rem;
   }
-  .other-features {
-    padding: 4rem 3.2rem;
-  }
   .other-features-parent {
     height: 14rem;
     min-width: 49%;
@@ -6890,9 +6973,6 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-  }
-  .pricing-more.pricing-table {
-    margin-top: 5rem;
   }
 }
 
@@ -7619,9 +7699,6 @@ body {
   }
   .feature-double-text-parent {
     width: auto;
-  }
-  .other-features {
-    padding: 4rem 2.3rem;
   }
   .other-features-parent {
     height: 14.5rem;
@@ -8519,6 +8596,7 @@ body {
   .feature-section.hero.manager {
     height: auto;
     margin-top: 5rem;
+    margin-bottom: 0rem;
   }
   .feature-section.hero.editor {
     height: auto;
@@ -8579,6 +8657,7 @@ body {
     order: 1;
   }
   .feature-hero-text-parent.hosting {
+    margin-top: 0rem;
     padding-right: 2rem;
     padding-left: 2rem;
   }
@@ -8613,7 +8692,8 @@ body {
   }
   .feature-bounding-box.manager {
     height: auto;
-    padding-top: 0rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
@@ -8825,9 +8905,6 @@ body {
   .feature-triple-text-parent {
     width: 100%;
     margin-left: 0rem;
-  }
-  .other-features {
-    padding: 0rem 2rem;
   }
   .other-features-parent {
     width: 100%;
@@ -9063,6 +9140,9 @@ body {
     margin-bottom: 3rem;
     padding-right: 2rem;
     padding-left: 2rem;
+  }
+  .paragraph.subtitle {
+    font-size: 20px;
   }
   .image-58 {
     border-radius: 0.5rem;
