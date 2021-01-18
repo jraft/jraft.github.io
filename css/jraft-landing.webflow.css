@@ -1777,7 +1777,7 @@ body {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  background-color: #fff;
+  background-color: #ececec;
 }
 
 .cell-div.plan.highlighted {
@@ -1889,7 +1889,7 @@ body {
 
 ._1st-column.plan {
   width: 33rem;
-  background-color: #fff;
+  background-color: #ececec;
 }
 
 ._1st-column.comparison-tables {
@@ -9137,6 +9137,10 @@ body {
     padding-left: 1vw;
   }
 
+  .row.sticky {
+    top: 4.5rem;
+  }
+
   .row.ticks {
     padding-right: 4vw;
     padding-left: 4vw;
@@ -9185,6 +9189,11 @@ body {
 
   .faq-grid {
     grid-column-gap: 1.5rem;
+  }
+
+  .pricing-table-title-parent {
+    padding-right: 3vw;
+    padding-left: 3vw;
   }
 
   .text-block-23 {
