@@ -7519,6 +7519,11 @@ body {
     height: 100%;
   }
 
+  .cell-div.comparison-tables.wp-v-jraft {
+    width: 48%;
+    padding-right: 0rem;
+  }
+
   ._1st-column {
     width: 100%;
     -webkit-box-align: center;
@@ -7548,8 +7553,8 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 9rem;
-    height: auto;
+    width: 35%;
+    min-width: 12rem;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
@@ -7558,7 +7563,8 @@ body {
 
   .row.ticks {
     height: auto;
-    padding: 1rem 0rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .row.plan-detail {
@@ -7583,18 +7589,6 @@ body {
     margin-bottom: 0.5rem;
     color: #191919;
     font-weight: 500;
-  }
-
-  .content-parent {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
   }
 
   .content-parent._1st-row {
@@ -7623,7 +7617,6 @@ body {
   }
 
   .table-plan-content-parent {
-    width: 100%;
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
     -ms-flex-order: 1;
@@ -7638,10 +7631,10 @@ body {
   }
 
   .div-block-1338 {
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 
   .div-block-1339 {
@@ -9060,10 +9053,6 @@ body {
     align-items: flex-end;
   }
 
-  .pricing-feat-top {
-    font-size: 4vw;
-  }
-
   .price-m {
     margin-top: 0.5rem;
   }
@@ -9127,7 +9116,7 @@ body {
   }
 
   .cell-div.comparison-tables.wp-v-jraft {
-    padding-left: 2vw;
+    padding-left: 0rem;
   }
 
   .cell-div.comparison-tables {
@@ -9140,17 +9129,15 @@ body {
   }
 
   ._1st-column.comparison-tables.wp-v-jraft {
-    width: 25vw;
-    padding-left: 1vw;
+    width: 100%;
+  }
+
+  ._1st-column.comparison-tables.wp-v-jraft.feat {
+    display: none;
   }
 
   .row.sticky {
     top: 4.5rem;
-  }
-
-  .row.ticks {
-    padding-right: 4vw;
-    padding-left: 4vw;
   }
 
   .pre-cta._1 {
@@ -9170,13 +9157,20 @@ body {
     width: 100%;
   }
 
-  .pricing-feat-detail {
-    max-width: 14rem;
-    font-size: 4vw;
+  .content-parent {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .content-parent._1st-row {
     height: 23rem;
+  }
+
+  .line {
+    position: static;
   }
 
   .grid-2 {
@@ -9212,7 +9206,6 @@ body {
   }
 
   .div-block-1338 {
-    margin-right: 4vw;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -9899,18 +9892,12 @@ body {
     padding-left: 2rem;
   }
 
-  .wordpress-comparison-table {
-    font-size: 4vw;
-  }
-
   .wp-v-jraft-table.pricing-table {
     margin-top: 0rem;
   }
 
   .wp-v-jraft-feature-parent {
     margin-bottom: 3rem;
-    padding-right: 2rem;
-    padding-left: 2rem;
   }
 
   .paragraph {
