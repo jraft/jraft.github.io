@@ -1825,7 +1825,7 @@ body {
 }
 
 .cell-div.comparison-tables.wp-v-jraft {
-  background-color: #fff;
+  background-color: #ececec;
 }
 
 .cell-div.comparison-tables {
@@ -1898,7 +1898,7 @@ body {
 }
 
 ._1st-column.comparison-tables.wp-v-jraft {
-  background-color: #fff;
+  background-color: #ececec;
 }
 
 .row {
@@ -4438,10 +4438,10 @@ body {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -4579,6 +4579,7 @@ body {
   display: flex;
   width: 100%;
   height: 100%;
+  max-width: 30rem;
   margin-left: 7rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -6120,6 +6121,10 @@ body {
     padding-right: 0.5rem;
   }
 
+  .cell-div.comparison-tables.wp-v-jraft {
+    background-color: #f0f0f0;
+  }
+
   .cell-div.comparison-tables {
     padding-right: 1rem;
     padding-left: 1rem;
@@ -6157,6 +6162,7 @@ body {
 
   ._1st-column.comparison-tables.wp-v-jraft {
     width: 19rem;
+    background-color: #f0f0f0;
   }
 
   .row.sticky {
@@ -8478,6 +8484,7 @@ body {
   }
 
   .div-block-1419 {
+    max-width: none;
     margin-left: 0rem;
   }
 
