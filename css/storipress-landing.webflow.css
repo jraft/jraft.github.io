@@ -5758,7 +5758,7 @@ body {
   }
 
   .nav-logo-link {
-    z-index: 100;
+    z-index: 1000;
   }
 
   .nav-logo-link.w--current {
