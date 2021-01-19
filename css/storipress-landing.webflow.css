@@ -1548,6 +1548,7 @@ body {
 }
 
 .cta-pricing-description {
+  margin-bottom: 1rem;
   font-family: 'Archia webfont', sans-serif;
   color: #e6e6e6;
   font-size: 18px;
@@ -5761,7 +5762,7 @@ body {
   }
 
   .nav-logo-link.w--current {
-    z-index: 0;
+    z-index: 1000;
     padding-top: 0.3rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   }
@@ -8734,8 +8735,7 @@ body {
   }
 
   .button.square-corners.left-align {
-    padding: 2vw 3vw;
-    font-size: 4vw;
+    font-size: 16px;
   }
 
   .button.square-corners.left-align.w--current {
