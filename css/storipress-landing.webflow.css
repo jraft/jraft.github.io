@@ -504,7 +504,7 @@ body {
   font-family: 'Archia webfont', Arial, sans-serif;
   font-size: 14px;
   line-height: 150%;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .footer-text.location:hover {
@@ -517,7 +517,7 @@ body {
   color: rgba(255, 255, 255, 0.5);
   font-size: 15px;
   line-height: 26px;
-  font-weight: 100;
+  font-weight: 300;
   text-align: left;
   letter-spacing: -0.5px;
 }
@@ -631,10 +631,6 @@ body {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-}
-
-.footer-div.hidden {
-  display: none;
 }
 
 .div-block-3 {
@@ -3512,7 +3508,6 @@ body {
   display: flex;
   width: 100%;
   margin-bottom: 2.5rem;
-  padding-right: 20%;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -4594,10 +4589,6 @@ body {
   justify-content: center;
 }
 
-.text-span-8 {
-  font-weight: 400;
-}
-
 .link-5 {
   color: #505050;
   font-weight: 500;
@@ -4693,6 +4684,10 @@ body {
 
 .blog-link:hover {
   color: #5a6dff;
+}
+
+.blog-link.cookie {
+  color: #fff;
 }
 
 .image-57 {
@@ -5112,21 +5107,6 @@ body {
   line-height: 140%;
   font-weight: 300;
   letter-spacing: -0.5px;
-}
-
-.footer-form-title-copy {
-  max-width: 22rem;
-  margin-bottom: 2rem;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  color: #fff;
-  font-size: 38px;
-  line-height: 120%;
-  font-weight: 800;
-  text-align: left;
-}
-
-.text-span-9 {
-  font-weight: 100;
 }
 
 .landing-feature-link {
@@ -5630,7 +5610,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-width: 25rem;
+  max-width: 50rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -5646,8 +5626,13 @@ body {
   text-decoration: none;
 }
 
+.legal-pagelinks.w--current {
+  color: #1a80a9;
+}
+
 .heading-24 {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  max-width: 35rem;
+  font-family: 'Archia webfont', Arial, sans-serif;
   font-size: 60px;
   line-height: 120%;
   font-weight: 700;
@@ -5709,6 +5694,11 @@ body {
   margin-bottom: 4em;
 }
 
+.legal-paragraph-text.list {
+  margin-bottom: 0.5em;
+  font-weight: 400;
+}
+
 .heading-25 {
   max-width: 42rem;
   margin-top: 4rem;
@@ -5762,12 +5752,119 @@ body {
   font-weight: 500;
 }
 
-.bold-text-6 {
+.heading-26 {
+  max-width: 42rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
   font-weight: 500;
 }
 
-.bold-text-7 {
-  font-weight: 500;
+.list-2 {
+  width: 65%;
+  min-width: 41rem;
+  list-style-type: decimal;
+}
+
+.div-block-1455 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  max-width: 45rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.list-item-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.text-block-61 {
+  height: 100%;
+  margin-left: 0.5rem;
+  padding-right: 0.35rem;
+  padding-left: 0.35rem;
+  border-radius: 0.15rem;
+  background-color: hsla(0, 0%, 100%, 0.15);
+  font-family: Inconsolata, monospace;
+  color: #fff;
+}
+
+.cookie-modal {
+  position: fixed;
+  left: 1rem;
+  bottom: 1rem;
+  z-index: 2000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 1rem;
+  background-color: #222;
+  box-shadow: 1px 1px 15px 2px rgba(0, 0, 0, 0.25);
+  color: #fff;
+}
+
+.cookie-description {
+  margin-bottom: 0px;
+  font-family: 'Archia webfont', Arial, sans-serif;
+  font-size: 1rem;
+}
+
+.cookie-pic {
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+
+.close-button {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-left: 0.75rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.close-line {
+  position: absolute;
+  width: 1.25rem;
+  height: 0.15rem;
+  border-radius: 1.5rem;
+  background-color: #fff;
+}
+
+.close-line._45deg {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.close-line._45-deg {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 @media screen and (max-width: 991px) {
@@ -7091,14 +7188,6 @@ body {
     font-size: 14px;
   }
 
-  .footer-form-title-copy {
-    font-size: 4vw;
-  }
-
-  .text-span-9 {
-    font-size: 2vw;
-  }
-
   .div-block-1444 {
     max-width: 70%;
   }
@@ -7173,6 +7262,23 @@ body {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+
+  .div-block-1452 {
+    width: 100%;
+  }
+
+  .legal-pagelinks {
+    font-size: 15px;
+  }
+
+  .div-block-1454 {
+    max-width: none;
+  }
+
+  .legal-paragraph-text {
+    width: 100%;
+    min-width: auto;
   }
 
   .dropdown {
@@ -7250,6 +7356,11 @@ body {
     padding-right: 3vw;
     padding-left: 3vw;
     text-align: center;
+  }
+
+  .list-2 {
+    width: 100%;
+    min-width: auto;
   }
 }
 
@@ -8736,6 +8847,18 @@ body {
     padding-left: 2rem;
   }
 
+  .div-block-1452 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .legal-pagelinks {
+    font-size: 14px;
+  }
+
   .mm-parent {
     padding-right: 3rem;
     padding-left: 3rem;
@@ -8744,6 +8867,15 @@ body {
   .mm-heading {
     color: #000;
     text-decoration: none;
+  }
+
+  .div-block-1455 {
+    width: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -10015,10 +10147,6 @@ body {
     text-align: center;
   }
 
-  .footer-form-title-copy {
-    font-size: 30px;
-  }
-
   .div-block-1444 {
     max-width: none;
   }
@@ -10179,6 +10307,15 @@ body {
     padding-left: 1rem;
   }
 
+  .heading-24 {
+    font-size: 13vw;
+  }
+
+  .heading-25 {
+    font-size: 8vw;
+    line-height: 120%;
+  }
+
   .mm-parent {
     padding-top: 5rem;
     padding-right: 2.9rem;
@@ -10208,6 +10345,17 @@ body {
     padding-left: 4vw;
     font-size: 16px;
     text-align: center;
+  }
+
+  .heading-26 {
+    font-size: 18px;
+  }
+
+  .cookie-modal {
+    left: 0.5rem;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    max-width: 25rem;
   }
 }
 
