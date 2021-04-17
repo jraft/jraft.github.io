@@ -8658,6 +8658,10 @@ body {
     padding: 0rem 2.3rem;
   }
 
+  .comparison-hero.pricing {
+    padding-bottom: 2rem;
+  }
+
   .div-block-1416 {
     padding-top: 1rem;
     padding-bottom: 0rem;
@@ -8936,10 +8940,6 @@ body {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-  }
-
-  .cookie-modal {
-    display: none;
   }
 
   .pricing-outline-parent.explainer {
