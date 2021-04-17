@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="8px" height="6px" viewBox="0 0 8 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Chevron</title>
-    <defs>
-        <filter id="filter-1">
-            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
-        </filter>
-    </defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Chevron" filter="url(#filter-1)">
-            <g transform="translate(-1.000000, 0.846740)">
-                <path d="M1.88089995,0.119723027 C3.04443032,1.27653556 4.09005616,2.2902835 5.01777745,3.16096688 C5.95002282,2.22730532 6.99025144,1.19207964 8.13846331,0.0552898294 C8.40132853,-0.176972674 9.23286423,0.509672941 8.91540449,0.828160833 C6.75639052,2.90102883 5.53559867,4.30652041 5.01777745,4.30652041 C4.49995623,4.30652041 3.23828585,2.90102883 1.05504776,0.794733944 C0.764267645,0.500219259 1.49807103,-0.157844479 1.88089995,0.119723027 Z" fill="#000000"></path>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg height="6" viewBox="0 0 8 6" width="8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><filter id="a"><feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"/></filter><g fill="none" fill-rule="evenodd" filter="url(#a)"><path d="m1.88089995.11972303c1.16353037 1.15681253 2.20915621 2.17056047 3.1368775 3.04124385.93224537-.93366156 1.97247399-1.96888724 3.12068586-3.10567705.26286522-.2322625 1.09440092.45438311.77694118.772871-2.15901397 2.072868-3.37980582 3.47835958-3.89762704 3.47835958s-1.7794916-1.40549158-3.96272969-3.51178647c-.29078011-.29451468.44302327-.95257842.82585219-.67501091z" fill="#000" transform="translate(-1 .84674)"/></g></svg>
