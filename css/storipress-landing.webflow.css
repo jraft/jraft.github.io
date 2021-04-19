@@ -9069,6 +9069,7 @@ body {
     z-index: 999;
     display: block;
     height: 100vh;
+    max-height: 100vh;
     padding-top: 2.5rem;
     padding-right: 1.4rem;
     padding-left: 1.4rem;
@@ -9130,7 +9131,7 @@ body {
     right: 0%;
     bottom: 0%;
     width: 100vw;
-    padding: 2rem 1rem 1.5rem;
+    padding: 3rem 1rem 2rem;
     box-shadow: 0 -1px 20px 5px rgba(0, 0, 0, 0.15);
   }
 }
@@ -10494,12 +10495,9 @@ body {
 
   .div-block-1475 {
     z-index: 2000;
-    padding-top: 3rem;
-    padding-bottom: 1rem;
   }
 
   .div-block-1476 {
-    position: relative;
     z-index: 1003;
   }
 }
