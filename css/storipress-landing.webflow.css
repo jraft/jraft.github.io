@@ -579,16 +579,6 @@ body {
   align-items: center;
 }
 
-.launching-soon {
-  margin-left: 1.6rem;
-  font-family: 'Archia webfont', Arial, sans-serif;
-  color: #000;
-  font-size: 18px;
-  line-height: 150%;
-  font-weight: 400;
-  text-align: center;
-}
-
 .body {
   display: -webkit-box;
   display: -webkit-flex;
@@ -6140,10 +6130,6 @@ body {
     font-size: 2.5vw;
   }
 
-  .launching-soon {
-    margin-left: 3vw;
-  }
-
   .body {
     background-color: #f0f0f0;
   }
@@ -9067,7 +9053,6 @@ body {
     right: 0%;
     bottom: 0%;
     z-index: 999;
-    display: block;
     height: 100vh;
     padding-top: 2.5rem;
     padding-right: 1.4rem;
@@ -9293,11 +9278,6 @@ body {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-  }
-
-  .launching-soon {
-    margin-left: 5vw;
-    font-size: 16px;
   }
 
   .pre-footer {
