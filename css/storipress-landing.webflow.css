@@ -9068,7 +9068,6 @@ body {
     bottom: 0%;
     z-index: 999;
     height: 100vh;
-    max-height: 100vh;
     padding-top: 2.5rem;
     padding-right: 1.4rem;
     padding-left: 1.4rem;
@@ -9124,14 +9123,17 @@ body {
   }
 
   .div-block-1475 {
-    position: absolute;
-    left: 0%;
-    top: auto;
-    right: 0%;
-    bottom: 0%;
     width: 100vw;
-    padding: 1.5rem 1rem 13vh;
+    height: 100%;
+    margin-left: -1.4rem;
+    padding-top: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
     box-shadow: 0 -1px 20px 5px rgba(0, 0, 0, 0.15);
+  }
+
+  .div-block-1476 {
+    margin-bottom: 1.5rem;
   }
 }
 
@@ -10486,10 +10488,6 @@ body {
   .desktop-menubar-button {
     max-height: none;
     margin-top: 0rem;
-  }
-
-  .mobile-nav-menu {
-    display: block;
   }
 
   .div-block-1475 {
