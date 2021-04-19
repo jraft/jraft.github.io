@@ -9067,7 +9067,6 @@ body {
     right: 0%;
     bottom: 0%;
     z-index: 999;
-    display: block;
     height: 100vh;
     max-height: 100vh;
     padding-top: 2.5rem;
@@ -9131,7 +9130,7 @@ body {
     right: 0%;
     bottom: 0%;
     width: 100vw;
-    padding: 3rem 1rem 2rem;
+    padding: 1rem 1rem 4rem;
     box-shadow: 0 -1px 20px 5px rgba(0, 0, 0, 0.15);
   }
 }
