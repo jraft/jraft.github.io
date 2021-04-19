@@ -9067,9 +9067,9 @@ body {
     right: 0%;
     bottom: 0%;
     z-index: 999;
-    display: none;
+    display: block;
     height: 100vh;
-    padding-top: 3rem;
+    padding-top: 2.5rem;
     padding-right: 1.4rem;
     padding-left: 1.4rem;
     -webkit-box-orient: vertical;
@@ -9093,7 +9093,7 @@ body {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -9104,7 +9104,7 @@ body {
     -ms-flex-align: start;
     align-items: flex-start;
     font-family: 'Archia webfont', Arial, sans-serif;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     line-height: 150%;
     text-decoration: none;
   }
@@ -10489,7 +10489,18 @@ body {
   }
 
   .mobile-nav-menu {
-    display: none;
+    display: block;
+  }
+
+  .div-block-1475 {
+    z-index: 2000;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  .div-block-1476 {
+    position: relative;
+    z-index: 1003;
   }
 }
 
