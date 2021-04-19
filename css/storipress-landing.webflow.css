@@ -9067,6 +9067,7 @@ body {
     right: 0%;
     bottom: 0%;
     z-index: 999;
+    display: block;
     height: 100vh;
     padding-top: 2.5rem;
     padding-right: 1.4rem;
@@ -9133,7 +9134,7 @@ body {
   }
 
   .div-block-1476 {
-    margin-bottom: 1.5rem;
+    margin-bottom: 3rem;
   }
 }
 
