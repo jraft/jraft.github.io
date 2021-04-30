@@ -5873,8 +5873,8 @@ body {
   width: 100%;
   height: 4.5rem;
   max-width: 79rem;
-  padding-right: 2.25rem;
-  padding-left: 2.25rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -5883,9 +5883,8 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-radius: 10rem;
   background-color: #fff;
-  box-shadow: 1px 1px 20px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.1);
 }
 
 .image-70 {
@@ -5931,7 +5930,6 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-radius: 5px;
   background-image: radial-gradient(circle farthest-corner at 50% 0%, rgba(43, 84, 196, 0.15), rgba(165, 43, 195, 0.15)), linear-gradient(126deg, rgba(224, 159, 17, 0.8), rgba(190, 17, 224, 0.8));
   -webkit-transition: -webkit-filter 200ms ease-in-out;
   transition: -webkit-filter 200ms ease-in-out;
