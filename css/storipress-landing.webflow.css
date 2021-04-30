@@ -5703,7 +5703,7 @@ body {
 
 .tooltip.navbar {
   left: -0.2rem;
-  top: 1.75rem;
+  top: 1.3rem;
   width: 17rem;
   padding: 0.5rem 0rem;
 }
@@ -5885,8 +5885,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   height: 2.6rem;
-  padding-right: 1.2rem;
-  padding-left: 1.2rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -5919,6 +5919,11 @@ body {
 
 .desktop-menubar-button:active {
   background-color: #43464d;
+}
+
+.desktop-menubar-button.w--current {
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .desktop-menubar-button-text {
@@ -5984,6 +5989,27 @@ body {
 
 .mobile-nav-menu {
   display: none;
+}
+
+.div-block-1477 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.sign-in {
+  margin-right: 1.5rem;
+  font-family: 'Archia webfont', Arial, sans-serif;
+  color: #000;
+  font-size: 15px;
+  line-height: 100%;
+  font-weight: 500;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 991px) {
