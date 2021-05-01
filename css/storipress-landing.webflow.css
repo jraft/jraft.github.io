@@ -570,7 +570,7 @@ body {
 
 .hero-header.landing {
   margin-bottom: 1.5rem;
-  background-image: linear-gradient(135deg, #c48599 15%, #488790 82%);
+  background-image: radial-gradient(circle closest-corner at 35% 125%, rgba(165, 103, 204, 0.9), hsla(0, 0%, 100%, 0)), linear-gradient(135deg, #66857f, #627c88 35%, #878d64);
   font-family: 'Archia webfont', Arial, sans-serif;
   color: #867f7f;
   -webkit-background-clip: text;
