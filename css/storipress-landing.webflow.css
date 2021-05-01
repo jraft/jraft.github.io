@@ -4952,15 +4952,15 @@ body {
 }
 
 .signup-form-2:hover {
-  -webkit-filter: hue-rotate(180deg) saturate(150%);
-  filter: hue-rotate(180deg) saturate(150%);
+  -webkit-filter: brightness(105%) hue-rotate(180deg) saturate(150%);
+  filter: brightness(105%) hue-rotate(180deg) saturate(150%);
 }
 
 .signup-cta-bounding-box {
   position: relative;
   z-index: 1;
   width: 95vw;
-  max-width: 70rem;
+  max-width: 75rem;
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -7433,7 +7433,7 @@ body {
   }
 
   .signup-cta-bounding-box {
-    width: 90vw;
+    width: 87vw;
   }
 
   .heading-23 {
@@ -7443,6 +7443,16 @@ body {
 
   .compare-form-parent {
     width: 33%;
+  }
+
+  .compare-form-parent.name {
+    width: 30%;
+    margin-right: 0.3rem;
+  }
+
+  .compare-form-parent.email {
+    width: 45%;
+    margin-right: 0.3rem;
   }
 
   .div-block-1448 {
@@ -9023,8 +9033,8 @@ body {
   }
 
   .signup-cta-bounding-box {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .heading-23 {
@@ -9033,6 +9043,7 @@ body {
 
   .text-block-60 {
     max-width: 25rem;
+    margin-bottom: 1rem;
   }
 
   .form {
@@ -9044,9 +9055,16 @@ body {
   }
 
   .compare-form-parent {
-    width: 33%;
     margin-top: 0.6rem;
     margin-right: 0rem;
+  }
+
+  .compare-form-parent.name {
+    width: 25%;
+  }
+
+  .compare-form-parent.email {
+    width: 48%;
   }
 
   .submit-button {
@@ -10521,6 +10539,14 @@ body {
     margin-top: 0rem;
     margin-right: 0rem;
     margin-bottom: 0.6rem;
+  }
+
+  .compare-form-parent.name {
+    width: 100%;
+  }
+
+  .compare-form-parent.email {
+    width: 100%;
   }
 
   .submit-button {
