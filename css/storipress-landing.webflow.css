@@ -569,10 +569,11 @@ body {
 }
 
 .hero-header.landing {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   background-image: radial-gradient(circle closest-corner at 35% 125%, rgba(165, 103, 204, 0.9), hsla(0, 0%, 100%, 0)), linear-gradient(135deg, #66857f, #627c88 35%, #878d64);
   font-family: 'Archia webfont', Arial, sans-serif;
   color: #867f7f;
+  font-weight: 600;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -582,7 +583,7 @@ body {
   max-width: 37rem;
   margin-bottom: 1.5rem;
   font-family: 'Archia webfont', Arial, sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   line-height: 150%;
   font-weight: 400;
   text-align: left;
