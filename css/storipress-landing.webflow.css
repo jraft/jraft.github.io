@@ -6204,9 +6204,9 @@ body {
   }
 
   .navigation {
+    height: 4rem;
     padding: 0px 1rem 0px 2rem;
-    background-color: hsla(0, 0%, 87.3%, 0.65);
-    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: #ececec;
   }
 
   .nav-wrap {
@@ -7661,7 +7661,10 @@ body {
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
+    height: 3.5rem;
     padding: 1rem 0.7rem 1rem 1.4rem;
+    background-color: hsla(0, 0%, 92.7%, 0.5);
+    box-shadow: none;
   }
 
   .nav-wrap {
@@ -9224,7 +9227,7 @@ body {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
-    background-color: #fff;
+    background-color: #ececec;
   }
 
   .div-block-1474 {
@@ -9354,7 +9357,7 @@ body {
 
   .navigation {
     height: 25vw;
-    max-height: 4.5rem;
+    max-height: 3.5rem;
     padding: 0rem 0.5rem 0rem 1rem;
   }
 
