@@ -437,6 +437,15 @@ body {
   align-items: center;
   background-color: #191919;
   background-image: radial-gradient(circle closest-corner at 65% 125%, rgba(122, 84, 146, 0.9), hsla(0, 0%, 100%, 0)), linear-gradient(151deg, #5a837b, #627c88 46%, #878d64);
+  -webkit-transition: -webkit-filter 500ms ease-in;
+  transition: -webkit-filter 500ms ease-in;
+  transition: filter 500ms ease-in;
+  transition: filter 500ms ease-in, -webkit-filter 500ms ease-in;
+}
+
+.footer-section:hover {
+  -webkit-filter: saturate(200%);
+  filter: saturate(200%);
 }
 
 .footer-flex-container {
@@ -1074,9 +1083,7 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: linear-gradient(336deg, #aa78ac, #6da09d 49%, #b37071);
-  -webkit-filter: blur(100%);
-  filter: blur(100%);
+  background-image: radial-gradient(circle closest-corner at 40% 130%, rgba(122, 84, 146, 0.9), hsla(0, 0%, 100%, 0)), linear-gradient(336deg, #878d64, #627c88 59%, #5a837b);
 }
 
 .photo-bg-colour.builder-3 {
@@ -4938,13 +4945,22 @@ body {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-transition: -webkit-filter 500ms ease-out;
+  transition: -webkit-filter 500ms ease-out;
+  transition: filter 500ms ease-out;
+  transition: filter 500ms ease-out, -webkit-filter 500ms ease-out;
+}
+
+.signup-form-2:hover {
+  -webkit-filter: hue-rotate(180deg) saturate(150%);
+  filter: hue-rotate(180deg) saturate(150%);
 }
 
 .signup-cta-bounding-box {
   position: relative;
   z-index: 1;
   width: 95vw;
-  max-width: 85rem;
+  max-width: 70rem;
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
@@ -7416,6 +7432,10 @@ body {
     justify-content: flex-start;
   }
 
+  .signup-cta-bounding-box {
+    width: 90vw;
+  }
+
   .heading-23 {
     font-size: 40px;
     letter-spacing: -0.5px;
@@ -9005,6 +9025,14 @@ body {
   .signup-cta-bounding-box {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .heading-23 {
+    max-width: 25rem;
+  }
+
+  .text-block-60 {
+    max-width: 25rem;
   }
 
   .form {
