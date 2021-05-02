@@ -9263,6 +9263,10 @@ body {
     right: 0%;
     bottom: 0%;
     z-index: 999;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     height: 100vh;
     padding-top: 2.5rem;
     padding-right: 1.4rem;
@@ -9316,14 +9320,14 @@ body {
   .link-7 {
     margin-bottom: 1rem;
     color: hsla(0, 0%, 100%, 0.75);
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     line-height: 100%;
     text-decoration: none;
   }
 
   .div-block-1475 {
     width: 100vw;
-    height: 13rem;
+    height: 15rem;
     margin-left: -1.4rem;
     padding-top: 1rem;
     padding-right: 1rem;
@@ -9333,7 +9337,6 @@ body {
   }
 
   .div-block-1476 {
-    margin-bottom: 3rem;
     color: #fff;
   }
 
@@ -10683,7 +10686,6 @@ body {
 
   .link-7 {
     margin-bottom: 1rem;
-    font-size: 0.8rem;
     line-height: 100%;
   }
 
