@@ -570,7 +570,7 @@ body {
 
 .hero-header.landing {
   margin-bottom: 1rem;
-  background-image: radial-gradient(circle closest-corner at 35% 125%, rgba(165, 103, 204, 0.9), hsla(0, 0%, 100%, 0)), linear-gradient(135deg, #66857f, #627c88 35%, #878d64);
+  background-image: linear-gradient(135deg, #66857f, #627c88 35%, #878d64);
   font-family: 'Archia webfont', Arial, sans-serif;
   color: #867f7f;
   font-weight: 600;
@@ -3000,8 +3000,14 @@ body {
   width: 49%;
   background-color: transparent;
   box-shadow: 1px 0 20px 0 rgba(0, 0, 0, 0.05);
+  -webkit-transition: box-shadow 200ms ease-in-out;
+  transition: box-shadow 200ms ease-in-out;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   color: #000;
+}
+
+.other-features-parent.comparisons:hover {
+  box-shadow: 5px 0 20px 5px rgba(0, 0, 0, 0.1);
 }
 
 .div-block-1397 {
@@ -7691,7 +7697,7 @@ body {
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
-    height: 3.5rem;
+    height: 4rem;
     padding: 1rem 0.7rem 1rem 1.4rem;
     background-color: hsla(0, 0%, 92.7%, 0.5);
     box-shadow: none;
@@ -7709,6 +7715,7 @@ body {
     margin-left: 0px;
     padding-right: 2.3rem;
     padding-left: 2.3rem;
+    background-image: radial-gradient(circle closest-corner at 65% 125%, rgba(122, 84, 146, 0.9), hsla(0, 0%, 100%, 0)), linear-gradient(151deg, #5a837b, #627c88 46%, #878d64);
   }
 
   .footer-logo-image {
@@ -9273,7 +9280,7 @@ body {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
-    background-color: #ececec;
+    background-image: radial-gradient(circle farthest-corner at 35% 80%, rgba(122, 84, 146, 0.9), hsla(0, 0%, 100%, 0)), linear-gradient(151deg, #5a837b, #627c88 40%, #878d64);
   }
 
   .div-block-1474 {
@@ -9298,16 +9305,19 @@ body {
   }
 
   .text-block-70 {
-    margin-bottom: 0.5rem;
-    color: #333;
+    margin-bottom: 1rem;
+    color: hsla(0, 0%, 100%, 0.85);
+    font-size: 1rem;
+    line-height: 100%;
     font-weight: 600;
     text-decoration: none;
   }
 
   .link-7 {
-    margin-bottom: 0.5rem;
-    color: #333;
-    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 0.85rem;
+    line-height: 100%;
     text-decoration: none;
   }
 
@@ -9315,14 +9325,16 @@ body {
     width: 100vw;
     height: 100%;
     margin-left: -1.4rem;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
     padding-right: 1rem;
     padding-left: 1rem;
+    background-color: hsla(0, 0%, 100%, 0.85);
     box-shadow: 0 -1px 20px 5px rgba(0, 0, 0, 0.15);
   }
 
   .div-block-1476 {
     margin-bottom: 3rem;
+    color: #fff;
   }
 
   .div-block-1477 {
@@ -10668,6 +10680,10 @@ body {
   .joinbeta-button {
     max-height: none;
     margin-top: 0rem;
+  }
+
+  .link-7 {
+    color: hsla(0, 0%, 100%, 0.65);
   }
 
   .div-block-1475 {
