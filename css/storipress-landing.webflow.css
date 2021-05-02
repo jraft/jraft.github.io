@@ -9263,6 +9263,10 @@ body {
     right: 0%;
     bottom: 0%;
     z-index: 999;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     height: 100vh;
     padding-top: 3.5rem;
     padding-right: 1.4rem;
@@ -9323,7 +9327,7 @@ body {
 
   .div-block-1475 {
     width: 100vw;
-    height: 8rem;
+    height: 7rem;
     margin-left: -1.4rem;
     padding-top: 1rem;
     padding-right: 1rem;
