@@ -9264,7 +9264,7 @@ body {
     bottom: 0%;
     z-index: 999;
     height: 100vh;
-    padding-top: 2.5rem;
+    padding-top: 3.5rem;
     padding-right: 1.4rem;
     padding-left: 1.4rem;
     -webkit-box-orient: vertical;
@@ -9323,7 +9323,7 @@ body {
 
   .div-block-1475 {
     width: 100vw;
-    height: 15rem;
+    height: 10rem;
     margin-left: -1.4rem;
     padding-top: 1rem;
     padding-right: 1rem;
