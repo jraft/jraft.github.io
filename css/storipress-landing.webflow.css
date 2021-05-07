@@ -858,8 +858,7 @@ body {
   display: flex;
   max-width: none;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  color: #fff;
-  font-size: 16px;
+  font-size: 1.5rem;
   line-height: 140%;
   font-weight: 100;
   text-align: left;
