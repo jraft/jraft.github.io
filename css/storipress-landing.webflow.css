@@ -6303,14 +6303,6 @@ body {
     justify-content: space-between;
   }
 
-  .footer-form-input-submit {
-    background-image: linear-gradient(146deg, #94d194 17%, #cc85ad);
-  }
-
-  .footer-form-input-submit:hover {
-    border-radius: 0.5rem;
-  }
-
   .form-parent.footer-cta {
     width: 50%;
     min-width: auto;
