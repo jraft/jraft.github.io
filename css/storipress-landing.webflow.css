@@ -5848,8 +5848,8 @@ body {
   grid-row-gap: 0px;
   -ms-grid-columns: auto 1fr 1fr 1fr 1fr;
   grid-template-columns: auto 1fr 1fr 1fr 1fr;
-  -ms-grid-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
-  grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  -ms-grid-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
 }
 
 .feattable-yesno {
@@ -5936,6 +5936,7 @@ body {
   position: absolute;
   left: -1rem;
   z-index: 2;
+  display: none;
   width: 95vw;
   height: 100%;
   max-width: 67rem;
