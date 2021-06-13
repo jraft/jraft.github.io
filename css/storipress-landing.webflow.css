@@ -5162,6 +5162,7 @@ body {
 }
 
 .pricing-more.table {
+  margin-bottom: 8rem;
   background-color: #ececec;
 }
 
@@ -5818,6 +5819,8 @@ body {
 
 .tooltip.feats {
   left: -0.2rem;
+  display: none;
+  width: 23.5rem;
 }
 
 .tooltip.navbar {
@@ -5936,7 +5939,6 @@ body {
   position: absolute;
   left: -1rem;
   z-index: 2;
-  display: none;
   width: 95vw;
   height: 100%;
   max-width: 67rem;
